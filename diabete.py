@@ -13,7 +13,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# Custom CSS for better UI
+# Custom CSS for updated UI
 st.markdown("""
     <style>
     /* Main container styling */
@@ -23,7 +23,7 @@ st.markdown("""
     
     /* Header styling */
     .main-header {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
         padding: 2rem;
         border-radius: 15px;
         margin-bottom: 2rem;
@@ -61,12 +61,12 @@ st.markdown("""
     }
     
     .diabetic {
-        background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+        background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);
         color: white;
     }
     
     .non-diabetic {
-        background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%);
+        background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
         color: white;
     }
     
@@ -86,12 +86,12 @@ st.markdown("""
     
     /* Sidebar styling */
     .css-1d391kg {
-        background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+        background: linear-gradient(180deg, #f0f4f8 0%, #d9e2ec 100%);
     }
     
     /* Button styling */
     .stButton > button {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #ff6fd8 0%, #3813c2 100%);
         color: white;
         border: none;
         padding: 0.75rem 2rem;
@@ -103,7 +103,7 @@ st.markdown("""
     
     .stButton > button:hover {
         transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        box-shadow: 0 4px 12px rgba(255, 111, 216, 0.4);
     }
     
     /* Input field styling */
@@ -114,13 +114,18 @@ st.markdown("""
     }
     
     .stNumberInput > div > div > input:focus {
-        border-color: #667eea;
-        box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+        border-color: #00c6ff;
+        box-shadow: 0 0 0 2px rgba(0, 198, 255, 0.2);
+    }
+    
+    .stNumberInput > div > div > input:hover {
+        border-color: #00c6ff;
+        box-shadow: 0 0 5px rgba(0, 198, 255, 0.5);
     }
     
     /* Progress bar styling */
     .stProgress > div > div > div > div {
-        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
     }
     
     /* Info box styling */
@@ -137,11 +142,12 @@ st.markdown("""
         text-align: center;
         padding: 1rem;
         margin-top: 2rem;
-        color: #666;
+        color: #444;
         font-size: 0.9rem;
     }
     </style>
 """, unsafe_allow_html=True)
+
 
 # Load and train model (cache it for performance)
 @st.cache_resource
