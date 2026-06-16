@@ -2,7 +2,7 @@
 
 A Machine Learning web application that predicts the likelihood of diabetes based on patient health information. The application is built using **Python**, **Scikit-learn**, and **Streamlit** and provides an interactive user interface for making predictions.
 
-
+---
 
 ## 📖 Project Overview
 
@@ -10,6 +10,7 @@ Diabetes is one of the most common chronic diseases worldwide. Early prediction 
 
 This project uses a **Logistic Regression Machine Learning model** trained on the Pima Indians Diabetes Dataset to predict whether a person is likely to have diabetes.
 
+---
 
 ## ✨ Features
 
@@ -21,6 +22,7 @@ This project uses a **Logistic Regression Machine Learning model** trained on th
 * Instant diabetes risk assessment
 * Responsive and modern UI design
 
+---
 
 ## 🛠 Technologies Used
 
@@ -30,20 +32,20 @@ This project uses a **Logistic Regression Machine Learning model** trained on th
 * NumPy
 * Scikit-learn
 
+---
 
 ## 📂 Project Structure
 
-
-
+```text
 Diabetic Prediction System/
 │
 ├── diabete.py          # Main Streamlit application
 ├── diabetes.csv        # Dataset used for training
 ├── README.md           # Project documentation
 └── requirements.txt    # Required libraries (optional)
+```
 
-
-
+---
 
 ## 📊 Dataset Information
 
@@ -62,7 +64,7 @@ Target Variable:
 
 * Outcome (0 = Non-Diabetic, 1 = Diabetic)
 
-
+---
 
 ## 🚀 Installation
 
@@ -122,6 +124,16 @@ After running the command, open the local URL displayed in the terminal.
 7. Generate Predictions
 8. Display Results through Streamlit UI
 
+---
+
+## 📸 Application Preview
+
+Add screenshots of your application here.
+
+```text
+screenshots/homepage.png
+screenshots/prediction_result.png
+```
 
 ---
 
