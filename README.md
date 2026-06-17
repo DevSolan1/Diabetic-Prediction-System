@@ -4,7 +4,7 @@ A Machine Learning web application that predicts the likelihood of diabetes base
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 Diabetes is one of the most common chronic diseases worldwide. Early prediction can help individuals seek medical attention sooner and improve health outcomes.
 
@@ -12,7 +12,7 @@ This project uses a **Logistic Regression Machine Learning model** trained on th
 
 ---
 
-## ✨ Features
+##  Features
 
 * Interactive and user-friendly Streamlit interface
 * Data preprocessing and cleaning
@@ -24,7 +24,7 @@ This project uses a **Logistic Regression Machine Learning model** trained on th
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 * Python
 * Streamlit
@@ -47,7 +47,7 @@ Diabetic Prediction System/
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 The project uses the Pima Indians Diabetes Dataset containing medical information such as:
 
@@ -66,7 +66,7 @@ Target Variable:
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Clone the Repository
 
@@ -103,7 +103,7 @@ pip install streamlit pandas numpy scikit-learn
 
 ---
 
-## ▶️ Run the Application
+##  Run the Application
 
 ```bash
 streamlit run diabete.py
@@ -113,7 +113,7 @@ After running the command, open the local URL displayed in the terminal.
 
 ---
 
-## 🧠 Machine Learning Workflow
+##  Machine Learning Workflow
 
 1. Load Dataset
 2. Handle Missing Values
@@ -126,18 +126,10 @@ After running the command, open the local URL displayed in the terminal.
 
 ---
 
-## 📸 Application Preview
-
-Add screenshots of your application here.
-
-```text
-screenshots/homepage.png
-screenshots/prediction_result.png
-```
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 This project demonstrates:
 
